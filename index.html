@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="todo-main_container">
+
+
+      <section>
+        <h1 class="todo-title">오늘의 할 일은?</h1>
+  
+        <form class="todo-ipt_container">
+          <input type="text" class="todo-ipt">  <!--todo 입력 ipt -->
+          <button class="todo-add_btn">+</button> <!-- 추가버튼 -->
+        </form>
+      </section>
+      
+      <div>
+        <button class="selectDelete">선택 삭제</button>
+        <label>전체 선택<input type="checkbox" class="selectAll"/></label>
+      </div>
+      <ul class="todo-list_container">
+        <!-- 리스트 추가 시 list 업데이트 -->
+      </ul>
+
+    
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
